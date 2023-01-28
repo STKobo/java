@@ -43,8 +43,8 @@ public class App {
 		
 	
 	public static void main (String[] args) {
-		futur ("je", "partir", "réussir", "gagner", "rêver");
-		futur(false, "il", "mentir", "voler");
+		futur ("je", "finir", "dormir", "travailler", "ranger");
+		futur(false, "il", "plonger", "pédaler");
 	}
 }
 
