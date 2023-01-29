@@ -1,9 +1,8 @@
 public class ecriture {
-    Map<String, Integer> map = new HashMap<>();
-    map.put("first", 10);
-    map.put("second", 30);
-    map.put("third", 50);
-    map.get("third");
+    LocalDatetime LocalDatetime = LocalDateTime.now();
+    System.out.println(LocalDateTime);
+    ZonedDateTime zonedDateTime2 = ZonedDateTime.now(ZoneId.of("Australia/Sydney"));
+    System.out.println("Zoned Local Date object : "+zonedDateTime2);
 
 }
 
